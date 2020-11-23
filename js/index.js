@@ -47,10 +47,6 @@ window.onload = function() {
       
         //image to play
         function play(num) {
-            for (var j = 0; j < controller.length; j++) {
-                controller[j].className = 'text';
-            }
-            controller[num].className = 'text active';
             for (var x = 0; x < mod.length; x++) {
                 mod[x].className = 'imga';
             }
@@ -86,3 +82,4 @@ window.onload = function() {
     
     }
 }
+
