@@ -2,25 +2,52 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>skin products</title>
+		<meta name="viewport" content="width=device-width">
+		<title>Skin Product Name</title>
+		<script type="text/javascript" src="js/index.js"></script>
 		<link rel="stylesheet" href="css/contact.css">
 		<link rel="shortcut icon" href=" img/favicon.ico"/>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>	
 	</head>
-	<body>
-		<!--navigation bar-->
-		<nav>
-			<label class ="logo">NameHere</label>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="product.html">Product</a></li>
-				<li><a  href="about.html">About</a></li>
-				<li><a class="active" href="contact.html">Contact</a></li>
-				<li class="ico">三</li>
-			</ul>
-		</nav>
 	
+	<body>
+		<header>
+			<div class="hero-image">
+				<nav>
+					<div class="mobileShow">
+						<div class="Mcontainer">
+							<label class ="logo">NameHere</label>
+							<nav class="Mnavbar">
+								<div class="hamburger-menu">
+									<div class="line line-1"></div>
+									<div class="line line-2"></div>
+									<div class="line line-3"></div>
+								</div>
+								<ul class="Mnav-list">
+									<li class="Mnav-item"><a href="index.html" class="Mnav-link">Home</a></li></br>
+									<li class="Mnav-item"><a href="product.html" class="Mnav-link">Product</a></li></br>  
+									<li class="Mnav-item"><a href="about.html" class="Mnav-link">About</a></li></br>  
+									<li class="Mnav-item"><a href="contact.html" class="Mnav-link">Contact</a></li>  
+								</ul>
+							</nav>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="mobileHide">
+						<label class ="logo">NameHere</label>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="product.html">Product</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a class="active" href="contact.html">Contact</a></li>
+							</ul>
+					</div>
+				</nav>
+			</div>
+		<div class="clear"></div>	
+		</header>
+		
 		<!--ban pic-->
 		<div class="bananer">
 			<img src="img/Contact.jpg"/>
@@ -28,7 +55,9 @@
 		
 		<!--contact-->
 	
-			<h3>CONTACT US</h3>
+		<div>
+			<h4>CONTACT US</h4>
+		</div>
 	
 		<div class="contact">
 			<div class="right">
@@ -53,9 +82,9 @@
 		<div class="clear"></div>
 
 		<!--chat-->
-		<nav>
-			<h3>CHAT WITH US</h3>
-		</nav>
+		<div>
+			<h4>CHAT WITH US</h4>
+		</div>
 		<div class="chat_box">
 			<form name="myForm" action="chatdata.html" target="_blank" onsubmit="return validateForm()" method="get" style="text-align:center">
 				<input type="text" name="Fname" placeholder="First Name: "></br>
@@ -75,7 +104,8 @@
 		</footer>
 		
 		<!--script-->
-		<script src="js/nav.js" type="text/javascript"></script>
+		<script src="script.js"></script>
+		<script src="scroll.js"></script>
 		<script type="text/javascript" src="js/chat-info.js" ></script>
 	</body>
 </html>
