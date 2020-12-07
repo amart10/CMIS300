@@ -304,7 +304,7 @@ footer p{
 	}
 	div h4{
 		width: auto;
-		font-size: 18px;
+		font-size: 34px;
 	}
 	.contact {
 		width: auto;
@@ -324,7 +324,7 @@ footer p{
  	.contact .right p{
  		width:auto;
  		line-height:25px;
- 		height:25px;
+ 		height:160px;
  	}	
 	.contact .left{
 		width: 83%;
@@ -363,7 +363,7 @@ footer p{
 	}
 	div h4{
 		width: auto;
-		font-size: 18px;
+		font-size: 34px;
 	}
 	.contact {
 		width: auto;
@@ -383,7 +383,7 @@ footer p{
  	.contact .right p{
  		width:auto;
  		line-height:25px;
- 		height:25px;
+ 		height:96px;
  	}
 	.contact .left{
 		width: auto;
@@ -416,7 +416,7 @@ footer p{
 @media screen and (min-width: 992.1px) and (max-width: 1200px) {
 	div h4{
 		width: auto;
-		font-size: 18px;
+		font-size: 34px;
 	}
 	.contact {
 		width: auto;
@@ -436,7 +436,7 @@ footer p{
  	.contact .right p{
  		width:auto;
  		line-height:25px;
- 		height:25px;
+ 		height:98px;
  	}	
 	.contact .left{
 		width: auto;
