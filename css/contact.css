@@ -324,7 +324,7 @@ footer p{
  	.contact .right p{
  		width:auto;
  		line-height:25px;
- 		height:160px;
+ 		height:200px;
  	}	
 	.contact .left{
 		width: 83%;
@@ -438,6 +438,59 @@ footer p{
  		line-height:25px;
  		height:98px;
  	}	
+	.contact .left{
+		width: auto;
+		float: center;
+		height: 480px;
+	}
+	.contact .left ul{
+		width: auto;
+		height:auto;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+	}
+	.contact .left ul li{
+		width:auto;
+		height: 350px;
+		float: center;
+		margin: 50px 200px;
+	}
+	.contact .left ul li p{
+		text-align: justify;
+		width:auto;
+		line-height:25px;
+		height:30px;
+	}
+}
+
+/*--large screen--*/
+@media screen and (min-width: 1200.1px) {
+	div h4{
+		width: auto;
+		font-size: 34px;
+	}
+	.contact {
+		width: auto;
+		height:auto;
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+	}
+ 	.contact .right {
+ 		width: auto;
+ 		height:auto;
+		margin-left:30px;
+		margin-right:30px;
+		margin-top:-35px;
+ 	}
+ 	.contact .right p{
+ 		width:auto;
+ 		line-height:25px;
+ 		height:96px;
+ 	}
 	.contact .left{
 		width: auto;
 		float: center;
