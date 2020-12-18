@@ -393,7 +393,7 @@ a:hover {
 }
 .card-image {
   grid-area: image;
-  background: url(../img/skin2.jpg);
+  background: url(../img/Slideshow3.jpg);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -424,14 +424,10 @@ a:hover {
   left: 100%;
 }
 .card-image.card2 {
-  background: url(../img/Slideshow3.jpg);
+  background: url(../img/moisturizer.jpg);
   background-size: cover;
 }
-/*card3*/
-.card-image.card3 {
-  background: url(../img/skin3.jpg);
-  background-size: cover;
-}
+
 .center {
   position: absolute;
   top: 50%;
